@@ -1,0 +1,313 @@
+
+.container-content{
+	position: relative;
+	z-index: 200;
+}
+.background-style{
+
+	background-image: url(images/bg/black2.png);
+
+	background-size:cover;
+
+	height: 100%;	
+
+	width: 100%;
+
+	background-repeat: no-repeat;
+
+	background-position: center center;	
+
+	position: absolute;
+
+}
+
+	.background-fade{
+		background: rgba(40,40,40,.88);
+		height: 100%;
+		width: 100%;
+		position: absolute; 
+	}
+	.background-fade img{
+		position: absolute;
+		z-index: 99;
+		width: 100%;
+		height: 100%;
+	}
+.background-fade-2{
+	background-color:rgba(29,29,29,.98);
+		z-index: 100;
+		height:100%;
+		width:100%;
+		position: absolute;
+}
+
+.main-navbar{
+
+	background-color: transparent;
+
+}
+
+.logo-and-socmed {
+	position: relative;
+	top:18px;
+	left:75px;
+	display: block;
+}	
+
+	.socmed-button li{
+	list-style: none;
+	float: left;
+	position: relative;
+	top:70px;
+	padding-left:20px;
+}
+
+	.socmed-button li:first-child{
+
+		padding-left:0px	;
+
+	}
+
+	.socmed-button a img.icon-fb{
+		height: 18px;
+	}
+
+.navbar-brand .logo-image{
+
+	height: 60px;
+
+	margin-left:40px;
+
+}
+
+	ul.navbar-right{
+
+		margin:70px 50px 0px 0px;
+
+	}
+
+	.navbar-right li {
+
+		list-style: none;
+
+	}
+
+		.navbar-right li a{
+
+			color: rgba(255,255,255,1);
+
+			font-weight: bolder;
+
+			padding: 15px;
+
+			text-transform: uppercase;
+
+		}
+
+		.navbar-right li:hover,
+
+		.navbar-right li a:hover{
+
+			text-decoration: none;
+
+			color:rgba(255,255,255,.8); 
+
+		}
+
+		.navbar-right li:last-child{
+
+			padding-left:20px;
+
+		}
+
+	
+
+		.search-box{
+
+			/*background-color: rgba(222, 48, 47,1);*/
+			/*padding: 11px 14px 11px 14px;*/
+			float: left;
+			position: relative;
+			bottom:9px;
+		}
+		.search-box span.fa-github{
+			font-size: 30px;
+		}
+.navbar-header button {
+
+	color:rgba(255,255,255,1);
+
+	border:1px solid rgba(255,255,255,1);
+
+	margin:30px 40px 0 0;
+
+}
+
+
+
+
+
+.feature-content-box{
+	position: relative;
+	top:90px;
+
+}
+
+.red-border-image{
+
+	border:4px solid rgba(222, 48, 47,1);
+
+	height: 310px;
+
+	width: 80%;
+
+	position: relative;
+
+	z-index: 990;
+
+}	
+
+	.image-feature-content img{
+		height: 260px;
+		width: 385px;
+		opacity: .6;
+		top:25px;
+		left:40px;
+		position: absolute;	
+	}
+
+	.tag-date-post{
+
+		text-transform: uppercase;
+
+		font-size: 24px;
+
+		font-weight: bolder;
+
+		position: absolute;
+
+		right: 80px;
+
+		top:40px;
+
+		z-index: 999;
+
+		text-align: right;
+
+	}
+
+	.tag-date-post div{
+
+		background-color:rgba(222, 48, 47,1);
+
+		margin-bottom: 8px;
+
+		padding:2px 5px 2px 5px;
+
+	}
+
+	.tag-date-post div:first-child{
+
+		width:50px;
+
+		text-align: right;
+
+		position: relative;
+
+		right: -50px;
+
+	}
+
+
+
+
+
+.post-tag1 span{
+	background-color: rgba(222, 48, 47,1);
+	border-radius: 0px;
+	padding:5px 7px 5px 7px;
+	font-weight: bolder;
+	text-transform: uppercase;
+}
+	.post-tag1 span.html{
+
+	}
+
+
+.post-title{
+	position: relative;
+	font-size: 30px;
+	text-transform: uppercase;
+	margin-top:20px;
+	font-weight:bold;
+
+	width:90%;
+
+}
+
+.post-content{
+	margin-top:10px;
+	width:90%;
+	font-size: 20px;
+}
+
+.post-buttons{
+
+
+
+}
+
+	.read-more-button{
+
+		border:2px solid rgba(255,255,255,1);
+
+		text-transform: uppercase;
+
+		font-weight: bold;
+
+		margin-top:50px;
+
+	}
+
+	.read-more-button:hover{
+
+		color:rgba(255,255,255,.8);
+
+	}
+
+
+
+
+
+
+
+#belumJadi{
+	
+}
+	.mod-content{
+		background-color: rgba(222, 48, 47,1);
+		border-radius: 0px;
+		font-weight: bolder;
+
+	}
+		.modal-header{
+			background-color: rgba(0, 0, 0,.1);
+			border-bottom: 0px;
+			padding: 15px 20px 15px 20px;
+		}
+		.modal-header img{
+			height: 20px;
+			opacity: .8;
+		}
+		.modal-header span.tea{
+			text-align: right;
+			float: right;
+			opacity: .8;
+			/*text-transform: uppercase;*/
+		}
+	.modal-body{
+		width:50%;
+		margin:0 auto;
+		padding-top: 20px;
+		padding-bottom: 100px;
+	}
