@@ -34,7 +34,7 @@
 		height: 100%;
 	}
 .background-fade-2{
-	background-color:rgba(29,29,29,.98);
+	background-color:rgba(40,40,40,.97);
 		z-index: 100;
 		height:100%;
 		width:100%;
@@ -58,7 +58,7 @@
 	list-style: none;
 	float: left;
 	position: relative;
-	top:70px;
+	top:50px;
 	padding-left:20px;
 }
 
@@ -149,30 +149,25 @@
 
 .feature-content-box{
 	position: relative;
-	top:90px;
+	top:70px;
 
 }
 
 .red-border-image{
-
 	border:4px solid rgba(222, 48, 47,1);
-
-	height: 310px;
-
-	width: 80%;
-
+	height: 400px;
+	width: 78%;
 	position: relative;
-
+	margin-left: 10px;
 	z-index: 990;
-
 }	
 
 	.image-feature-content img{
-		height: 260px;
-		width: 385px;
+		height: 360px;
+		width: 375px;
 		opacity: .6;
-		top:25px;
-		left:40px;
+		top:20px;
+		left:45px;
 		position: absolute;	
 	}
 
@@ -230,7 +225,7 @@
 	text-transform: uppercase;
 }
 	.post-tag1 span.html{
-
+		margin-right: 5px;
 	}
 
 
@@ -258,15 +253,12 @@
 }
 
 	.read-more-button{
-
 		border:2px solid rgba(255,255,255,1);
-
 		text-transform: uppercase;
-
 		font-weight: bold;
-
 		margin-top:50px;
-
+		border-radius: 0px;
+		padding:8px 25px 8px 25px;
 	}
 
 	.read-more-button:hover{
@@ -296,8 +288,8 @@
 			padding: 15px 20px 15px 20px;
 		}
 		.modal-header img{
-			height: 20px;
-			opacity: .8;
+			height: 21px;
+			opacity: .9;
 		}
 		.modal-header span.tea{
 			text-align: right;
@@ -306,8 +298,51 @@
 			/*text-transform: uppercase;*/
 		}
 	.modal-body{
-		width:50%;
 		margin:0 auto;
 		padding-top: 20px;
-		padding-bottom: 100px;
+		padding-bottom: 50px;
 	}
+
+.media-about{
+	padding-left: 20px;
+}
+.media-message{
+	padding-top: 13px;
+	padding-left: 10px;
+	padding-right: 20px;
+}
+.media-message div{
+	font-weight: lighter;
+	font-size: 15px;
+	padding-top: 10px;
+}
+	.media-message div a{
+		font-weight: bold;
+		color: white;
+	}
+	.media-message ul{
+		margin-left: 0px;
+		padding-left: 0px;
+	}
+	.media-message ul li{
+		list-style: none;
+		float: left;
+		padding-right: 12px;
+	}
+	.media-message ul li span.fab{
+		font-size: 19px;
+	}
+.media-message span.media-heading{
+	font-size: 16px;
+}
+.media-left .user-pic{
+	
+}
+.user-pic img{
+	position: relative;
+	border:5px solid rgba(199, 43, 42,1);
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	opacity: .9;
+}
